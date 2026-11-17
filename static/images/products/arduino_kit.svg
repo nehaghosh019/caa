@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgArd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="pcb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00878F" />
+      <stop offset="100%" stop-color="#005b61" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgArd)"/>
+  <!-- Arduino Board -->
+  <rect x="160" y="90" width="280" height="190" rx="14" fill="url(#pcb)" stroke="#5eead4" stroke-width="2"/>
+  <!-- USB Port -->
+  <rect x="135" y="110" width="40" height="35" rx="3" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+  <!-- DC Jack -->
+  <rect x="135" y="220" width="45" height="40" rx="4" fill="#1e293b" stroke="#000" stroke-width="2"/>
+  <!-- Main IC Chip -->
+  <rect x="270" y="175" width="110" height="35" rx="4" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+  <text x="280" y="198" fill="#94a3b8" font-family="monospace" font-size="11">ATMEGA328P</text>
+  <!-- Header Pins Top & Bottom -->
+  <rect x="220" y="95" width="200" height="14" rx="2" fill="#1e293b"/>
+  <rect x="220" y="260" width="200" height="14" rx="2" fill="#1e293b"/>
+  <!-- LED and Crystal -->
+  <circle cx="230" cy="140" r="4" fill="#22c55e"/>
+  <circle cx="250" cy="140" r="4" fill="#eab308"/>
+  <text x="360" y="145" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="16">UNO</text>
+  <text x="360" y="160" fill="#a7f3d0" font-family="sans-serif" font-size="9">ARDUINO R3</text>
+  <!-- Breadboard underneath -->
+  <rect x="140" y="305" width="320" height="70" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <g fill="#94a3b8">
+    <circle cx="160" cy="325" r="2"/><circle cx="180" cy="325" r="2"/><circle cx="200" cy="325" r="2"/>
+    <circle cx="220" cy="325" r="2"/><circle cx="240" cy="325" r="2"/><circle cx="260" cy="325" r="2"/>
+    <circle cx="280" cy="325" r="2"/><circle cx="300" cy="325" r="2"/><circle cx="320" cy="325" r="2"/>
+    <circle cx="340" cy="325" r="2"/><circle cx="360" cy="325" r="2"/><circle cx="380" cy="325" r="2"/>
+    <circle cx="400" cy="325" r="2"/><circle cx="420" cy="325" r="2"/><circle cx="440" cy="325" r="2"/>
+  </g>
+  <line x1="150" y1="312" x2="450" y2="312" stroke="#ef4444" stroke-width="2"/>
+  <line x1="150" y1="365" x2="450" y2="365" stroke="#3b82f6" stroke-width="2"/>
+</svg>

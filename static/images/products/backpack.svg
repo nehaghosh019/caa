@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgBag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1f2937" />
+    </linearGradient>
+    <linearGradient id="bagMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgBag)"/>
+  <!-- Backpack Handle -->
+  <path d="M 260 90 Q 300 40 340 90" stroke="#334155" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Backpack Main Shell -->
+  <path d="M 220 120 Q 300 70 380 120 L 400 370 Q 300 395 200 370 Z" fill="url(#bagMain)" stroke="#38bdf8" stroke-width="2"/>
+  <!-- Front Zipper Pocket -->
+  <path d="M 230 220 Q 300 200 370 220 L 375 350 Q 300 365 225 350 Z" fill="#0369a1" stroke="#38bdf8" stroke-width="1.5"/>
+  <!-- Reflective strip -->
+  <rect x="250" y="270" width="100" height="8" rx="4" fill="#38bdf8" opacity="0.8"/>
+  <!-- Water bottle mesh -->
+  <path d="M 195 250 L 210 250 L 210 340 L 195 330 Z" fill="#64748b" opacity="0.5"/>
+  <path d="M 390 250 L 405 250 L 405 330 L 390 340 Z" fill="#64748b" opacity="0.5"/>
+  <!-- Logo Badge -->
+  <circle cx="300" cy="160" r="14" fill="#0f172a"/>
+  <polygon points="295,153 307,160 295,167" fill="#38bdf8"/>
+</svg>

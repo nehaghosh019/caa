@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgBlazer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="navyWool" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgBlazer)"/>
+  <!-- Blazer Hanger -->
+  <path d="M 230 110 Q 300 65 370 110" stroke="#d97706" stroke-width="6" fill="none"/>
+  <!-- Navy Blazer Silhouette -->
+  <path d="M 230 110 L 155 220 L 195 245 L 240 190 L 240 390 L 360 390 L 360 190 L 405 245 L 445 220 L 370 110 Z" fill="url(#navyWool)" stroke="#3b82f6" stroke-width="1.5"/>
+  <!-- Lapels -->
+  <path d="M 270 110 L 300 240 L 235 200 Z" fill="#1e40af" stroke="#1d4ed8" stroke-width="2"/>
+  <path d="M 330 110 L 300 240 L 365 200 Z" fill="#1e40af" stroke="#1d4ed8" stroke-width="2"/>
+  <!-- Gold Embossed Buttons -->
+  <circle cx="300" cy="275" r="6" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <circle cx="300" cy="320" r="6" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <!-- Pocket with College Emblem -->
+  <rect x="250" y="205" width="34" height="24" rx="2" fill="#172554" stroke="#60a5fa" stroke-width="1.5"/>
+  <circle cx="267" cy="217" r="6" fill="#fbbf24"/>
+  <!-- Flap Pockets -->
+  <rect x="245" y="320" width="45" height="12" rx="3" fill="#172554" stroke="#1e40af" stroke-width="1.5"/>
+  <rect x="310" y="320" width="45" height="12" rx="3" fill="#172554" stroke="#1e40af" stroke-width="1.5"/>
+</svg>

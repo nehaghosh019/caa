@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgCoat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgCoat)"/>
+  <!-- Hanger -->
+  <path d="M 230 110 Q 300 60 370 110" stroke="#b45309" stroke-width="6" fill="none"/>
+  <circle cx="300" cy="55" r="14" stroke="#b45309" stroke-width="4" fill="none"/>
+  <!-- White Lab Coat Body -->
+  <path d="M 230 110 L 160 210 L 200 235 L 245 180 L 245 390 L 355 390 L 355 180 L 400 235 L 440 210 L 370 110 Z" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- Collar / Lapels -->
+  <path d="M 270 110 L 300 200 L 250 200 Z" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <path d="M 330 110 L 300 200 L 350 200 Z" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <!-- Center seam & Buttons -->
+  <line x1="300" y1="200" x2="300" y2="390" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="300" cy="235" r="4" fill="#94a3b8"/>
+  <circle cx="300" cy="275" r="4" fill="#94a3b8"/>
+  <circle cx="300" cy="315" r="4" fill="#94a3b8"/>
+  <!-- Pockets -->
+  <rect x="255" y="215" width="30" height="35" rx="3" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <!-- College crest embroidery -->
+  <rect x="260" y="222" width="20" height="4" rx="2" fill="#0284c7"/>
+  <rect x="252" y="300" width="38" height="48" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="310" y="300" width="38" height="48" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+</svg>

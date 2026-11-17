@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgLamp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <radialGradient id="glow" cx="45%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fef08a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgLamp)"/>
+  <!-- Light Cone Glow -->
+  <polygon points="260,110 100,410 440,410" fill="url(#glow)"/>
+  <!-- Lamp Base -->
+  <ellipse cx="330" cy="370" rx="60" ry="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="315" cy="368" r="6" fill="#10b981"/>
+  <!-- Flexible Gooseneck -->
+  <path d="M 330 360 C 340 260, 360 160, 290 120" stroke="#f8fafc" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Lamp Head -->
+  <rect x="190" y="90" width="120" height="24" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="200" y="110" width="100" height="6" rx="3" fill="#fef08a"/>
+</svg>
